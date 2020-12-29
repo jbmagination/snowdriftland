@@ -53,7 +53,7 @@
 						 return results[1];
 				 }
 						 
-				var so = new SWFObject("calendar.swf?t=" + new Date().getTime(), "stage", "900px", "578px", "9", "#ffffff");
+				var so = new SWFObject("calendar.swf?t=" + new Date().getTime(), "stage", "1000", "800", "9", "#ffffff");
 				so.addParam("menu",false);
 				
 				so.addVariable("l", gup( "l" ) );
@@ -62,7 +62,9 @@
 				so.addVariable("p1", gup( "p1" ) );
 				so.write("flashDiv");
 			 </script>
-			 
+			 <h1>Missing things</h1>
+			 <li>Presents/rewards</li><li>Probably other stuff</li>
+			 <p>I just forked the <strong>calendar</strong> folder from the preview version and it magically loads up. Still need to sort some stuff out though!</p>
 					</td> 
 				</tr>   
 			</table>
