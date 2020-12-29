@@ -9,4 +9,4 @@ However, there is a FPS counter in this version of the game when you play a leve
 
 ## Full
 
-The full version currently doesn't work. I'm working on trying to get it to work, rewards included if possible, and once I get that done I'll let you know.
+The full version currently is a WIP for restoration. It runs, but it runs off of the preview version's code, and I'm trying to replace as much of it as I can with authentic 2010 files.
