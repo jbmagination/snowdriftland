@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<content>
 <text>
 	<!------------------------------------------------------------------------------------------------------------------>
 	<!-- This was recreated from scratch and is not an authentic original 2010 file. If anyone can find the original  -->
         <!-- XML files, or their goodie counterparts, let me know.                                                        -->
         <!-- JBMagination												  -->													  -->
 	<!------------------------------------------------------------------------------------------------------------------>
-	<text name="title">Chick Chick Boom</text>
-	<text name="body">Chick Chick Boom text</text>
-	<text name="sub">AVAILABLE FOR WiiWARE</text>
+	<text name="title">![CDATA[Chick Chick Boom]]</text>
+	<text name="body">![CDATA[Chick Chick Boom text]]</text>
+	<text name="sub">![CDATA[AVAILABLE FOR WiiWARE]]</text>
 	
 </text>
-</content>
 </xml>
 
 
