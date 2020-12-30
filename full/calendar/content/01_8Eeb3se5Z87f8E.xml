@@ -9,13 +9,12 @@
         <title>Chick Chick Boom</title>
 	<body>An entertaining and action-packed game demanding both creativity and good timing.</body>
 	<sub>AVAILABLE FOR WiiWARE™</sub>
-
+	<homepage>http://www.chick-chick-boom.com/</homepage>
 
         <!-- Fun fact! This bottom tag can be anything. "goodies", "reward", "randomtag123", "download", you name it.     -->
 	<!-- The "DOWNLOAD GOODIES" button will still use it. However, by default, it checks for "link" first.            -->
 
 	<link></link>
-	<homepage>http://www.chick-chick-boom.com/</homepage>
 </text>
 </xml>
 
