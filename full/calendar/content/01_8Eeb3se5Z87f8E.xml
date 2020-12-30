@@ -5,9 +5,9 @@
         <!-- XML files, or their goodie counterparts, let me know.                                                        -->
         <!-- JBMagination												  -->													  -->
 	<!------------------------------------------------------------------------------------------------------------------>
-	<text name="title">![CDATA[Chick Chick Boom]]</text>
-	<text name="body">![CDATA[Chick Chick Boom text]]</text>
-	<text name="sub">![CDATA[AVAILABLE FOR WiiWARE]]</text>
+	<title>![CDATA[Chick Chick Boom]]</title>
+	<body>![CDATA[Chick Chick Boom text]]</body>
+	<sub>![CDATA[AVAILABLE FOR WiiWARE]]</sub>
 	
 </text>
 </xml>
