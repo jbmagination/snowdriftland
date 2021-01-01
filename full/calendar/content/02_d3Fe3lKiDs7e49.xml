@@ -5,6 +5,7 @@
         <!-- XML files, or their goodie counterparts, let me know.                                                        -->
         <!-- JBMagination												  -->													  -->
 	<!------------------------------------------------------------------------------------------------------------------>
+	<label>Label tag</label>	
 	<title>Zombie Panic in Wonderland</title>
 	<body>A frantic third-person shooter with large doses of humor.</body>
 	<sub>AVAILABLE FOR WiiWARE™</sub>
