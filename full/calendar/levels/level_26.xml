@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<level sx="97" background="lake.swf" sy="298" d="659" sh="50">
+<level sx="97" background="whiterocks" sy="298" d="659" sh="50">
 <layer name="base" source="boss.swf" x="0" y="0" width="480" height="360">
 		<t id="l_b" x="537" y="389" w="600" h="61" d="661" o="" /> 
 </layer>
