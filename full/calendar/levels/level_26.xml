@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<level sx="97" sy="298" d="659" sh="50">></level>
+<level sx="97" sy="298" d="659" sh="50">
+		<t id="l_b" x="537" y="389" w="600" h="61" d="661" o="" /> 
+</level>
