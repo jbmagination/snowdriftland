@@ -2,5 +2,6 @@
 <level background="bosscave" music="track_boss" sx="97" sy="298" d="659" sh="50">
 	<layer name="base" source="lake.swf" x="0" y="0" width="480" height="360">
 		<t id="bh" x="15" y="298" w="104" h="308" d="631" o="" />
+		<t id="f_b" x="482" y="401" w="484" h="105" d="617" o="" />
 	</layer>
 </level>
