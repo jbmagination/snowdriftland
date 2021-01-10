@@ -31,37 +31,19 @@
 		<div>     
     		<table width="100%" height="100%" border="0">
     			<tr>
-    				<td  align="center" valign="middle">
+    				<td width="100%" height="100%" align="center" valign="middle">
 					<p>Head back to the main page <a href="https://snowdriftindie.jbmagination.com">here</a></p>
-					<div id="flashDiv" align="center" valign="middle">
-						<a href="http://get.adobe.com/flashplayer">
-				<map name="noflash">
-					  <area href="http://get.adobe.com/flashplayer" alt="Get Adobe Flash Player" coords="432,440,568,477" shape="rect" target="_blank">
-				<img usemap="#noflash" src="img/noflash.jpg" alt="" height="1024" width="1280" border="0" />
-				</a>
+					<div id="flashDiv">
+					</div>
 			</div>
-			 <script type="text/javascript">
-			  function gup( name )
-				 {
-						 name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
-						 var regexS = "[\\?&]"+name+"=([^&#]*)";
-						 var regex = new RegExp( regexS );
-						 var results = regex.exec( window.location.href );
-						 if( results == null )
-								 return "";
-						 else
-						 return results[1];
-				 }
-						 
-				var so = new SWFObject("calendar.swf?t=" + new Date().getTime(), "stage", "1000", "800", "9", "#ffffff");
-				so.addParam("menu",false);
-				
-				so.addVariable("l", gup( "l" ) );
-				so.addVariable("c", gup( "c" ) );
-				so.addVariable("p", gup( "p" ) );
-				so.addVariable("p1", gup( "p1" ) );
-				so.write("flashDiv");
-			 </script>
+			<script type="text/javascript">
+								 
+								 var so = new SWFObject("calendar.swf?t=" + new Date().getTime(), "stage", "1000px", "790px", "9", "#ffffff");
+								 so.addParam("menu",false);
+								 
+							 
+								 so.write("flashDiv");
+							  </script>
 			 <h1>Missing things</h1>
 			 <li>Most goodie XML files</li><li>Probably other stuff</li>
 			 <p>I just forked the <strong>calendar</strong> folder from the preview version and it magically loads up. Still need to sort some stuff out though!</p>
