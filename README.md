@@ -1,6 +1,13 @@
-# MiS:IGE Mirror
+# MiS Mirror
 
-A mirror of *Mission in Snowdriftland: Indie Games Edition*. Also check out the 2006 Mission in Snowdriftland mirror [here](https://snowdriftland.live) by [Minerscale](https://github.com/Minerscale), the [chick chick BOOM WiiWare website mirror](http://github.com/jbmagination/chickchickBOOM) by me.
+A mirror of *Mission in Snowdriftland* and *Mission in Snowdriftland: Indie Games Edition*. Also check out the 2006 Mission in Snowdriftland mirror [here](https://snowdriftland.live) by [Minerscale](https://github.com/Minerscale), the [chick chick BOOM WiiWare website mirror](http://github.com/jbmagination/chickchickBOOM) by me.
+
+# Mission in Snowdriftland
+Fully restored and working! The game archive was taken from [Minerscale](https://github.com/Minerscale) to keep the archive alive after snowdriftland.live vanishes (thank you for your hard work!)
+
+The other archives for Mission in Snowdriftland are in progress.
+
+# Mission in Snowdriftland: Indie Games Edition
 
 ## Preview
 
