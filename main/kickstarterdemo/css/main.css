@@ -1,0 +1,317 @@
+/*  -------------- GENERAL -------------- */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+	box-sizing: inherit;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+:focus {
+    outline: 0;
+}
+html, body {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100%;
+}
+body {
+	background: url("../img/mis_landscape_bg.png") top left repeat-x, #ffffff;
+	padding: 0 20px;
+	overflow-x: hidden;
+}
+@media only screen and (max-width: 767px) {
+	body {
+		background-size: calc(512px / 2);
+	}
+}
+#content {    
+	position: relative;
+	display: block;
+	max-width: 1020px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto 99px;
+}
+@media only screen and (max-width: 767px) {
+	#content {
+		margin-bottom: 7px;
+	}
+}
+h2 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 22px;
+	text-align: center;
+	text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) {
+	h2 {
+		font-size: 16px;
+	}
+}
+p {
+	font-family: "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+	text-align: center;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+	p {
+		font-size: 10px;
+		line-height: 13px;
+	}
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #efefef;
+    margin-bottom: 24px;
+    padding: 0;
+}
+@media only screen and (max-width: 767px) {
+	hr {
+		margin-bottom: 14px;
+	}
+}
+footer {
+	position: relative;
+	height: 140px;
+    bottom: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: 0;
+}
+footer p {
+	letter-spacing: 0.057em;
+	margin-bottom: 24px;
+}
+@media only screen and (max-width: 767px) {
+	footer p {
+		margin-bottom: 8px;
+	}
+}
+footer a:hover {
+	color: #0481a6;
+}
+@media only screen and (min-width: 768px) {
+	.only-mob {
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.hide-mob {
+		display: none !important;
+	}
+}
+/* -------------- HOME -------------- */
+.mis-logo {
+	position: relative;
+	display: block;
+	max-width: 929px;
+	width: 100%;
+	margin: 57px auto 125px;
+}
+@media only screen and (max-width: 767px) {
+	.mis-logo {
+		max-width: calc(507px / 2);
+		margin: 30px auto 26px;
+	}
+}
+.mis-content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-left: -11px;
+}
+@media only screen and (max-width: 767px) {
+	.mis-content {
+		margin-left: initial;
+		margin-bottom: 18px;
+	}
+}
+.mis-chubby {
+	position: relative;
+	display: block;
+	max-width: 111px;
+    max-height: 181px;
+    top: -1px;
+	flex-basis: 10%;
+}
+@media only screen and (max-width: 767px) {
+	.mis-chubby {
+		max-width: calc(111px / 2);
+		max-height: calc(181px / 2);
+		top: 20px;
+	}
+}
+.mis-pinkus {
+	position: relative;
+	display: block;
+	max-width: 83px;
+    max-height: 223px;
+	top: 88px;
+	flex-basis: 10%;
+}
+@media only screen and (max-width: 767px) {
+	.mis-pinkus {
+		max-width: calc(83px / 2);
+		max-height: calc(223px / 2);
+		top: 54px;
+	}
+}
+.speechbubble {
+	position: relative;
+	display: block;
+	margin: 3px 6% 0 3%;
+	max-height: 173px;
+}
+@media only screen and (max-width: 767px) {
+	.speechbubble {
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.speechbubble {
+		margin-top: 30px;
+	}
+}
+.speechbubble img {
+	width: 100%;
+}
+@media only screen and (max-width: 767px) {
+	.speechbubble img {
+		max-width: calc(444px / 2);
+	}
+}
+.mis-btn-demo {
+	position: relative;
+	display: block;
+	max-width: 440px;
+	width: 100%;
+	margin: 0 auto 42px;
+}
+.mis-btn-demo img {
+	max-width: 440px;
+	width: 100%;
+}
+@media only screen and (max-width: 767px) {
+	.mis-btn-demo,
+	.mis-btn-demo img {
+		max-width: calc(440px / 2);
+		max-height: calc(117px / 2);
+		left: 3px;
+	}
+}
+.socialmedia-flexbox {
+	display: flex;
+	justify-content: center;
+}
+.socialmedia-items {
+	margin-right: 18px;
+}
+.mis-discord-logo {
+	display: block;
+	width: 35px;
+	height: 39px;
+}
+.mis-facebook-logo {
+	display: block;
+	width: 35px;
+	height: 35px;
+}
+.mis-twitter-logo {
+	display: block;
+	width: 35px;
+	height: 35px;
+}
+.mis-tonsofbits-logo {
+	display: block;
+	margin: 22px auto;
+	width: 111px;
+	height: 24px;
+}
+/* -------------- TERMS OF USE -------------- */
+#termsofuse  {
+	background: #FFF;
+}
+#termsofuse body {
+	padding: 0 10px;
+}
+@media only screen and (max-width: 767px) {
+	#termsofuse body {
+		background-size: calc(772px / 2);
+	}
+}
+#termsofuse span {
+	color: #0481a6;
+}
+#termsofuse #content {
+	margin: 30px auto 77px;
+}
+@media only screen and (max-width: 767px) {
+	#termsofuse #content {
+		margin: 30px auto;
+	}
+}
+#termsofuse .mis-arrow-back {
+	margin-left: 50px;
+}
+@media only screen and (max-width: 767px) {
+	#termsofuse .mis-arrow-back {
+		margin-left: 0;
+	}
+}
+#termsofuse .mis-chubby-sit {
+	position: relative;
+	display: block;
+	margin: 0 auto -5px;
+    width: 32px;
+}
+#termsofuse .text-box {
+	background: #fff;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+@media only screen and (max-width: 767px) {
+	#termsofuse .text-box {
+		padding: 15px;
+	}
+}
+#termsofuse h2 {
+	margin-bottom: 30px;
+}
+@media only screen and (max-width: 767px) {
+	#termsofuse h2 {
+		margin-bottom: 15px;
+	}
+}
+#termsofuse #content p {
+	text-align: left;
+	margin: 0 auto;
+	padding: 0;
+}
+#termsofuse #content .description {
+	font-weight: 600;
+	margin-bottom: 15px;
+}
