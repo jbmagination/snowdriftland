@@ -6,7 +6,7 @@
         <!-- JBMagination												  -->
 	<!------------------------------------------------------------------------------------------------------------------>
 	
-    <title>Chick Chick Boom</title>
+   	<title>chick chick BOOM</title>
 	<body>An entertaining and action-packed game demanding both creativity and good timing.</body>
 	<sub>AVAILABLE FOR WiiWARE&#8482;</sub>
 	<homepage>http://www.chick-chick-boom.com/</homepage>
@@ -14,7 +14,7 @@
         <!-- Fun fact! This bottom tag can be anything. "goodies", "reward", "randomtag123", "download", you name it.     -->
 	<!-- The "DOWNLOAD GOODIES" button will still use it. However, by default, it checks for "link" first.            -->
 
-	<link>https://snowdriftindie.jbmagination.com/full/downloads/ccb_download_01.zip</link>
+	<link>https://snowdriftindie.jbmagination.com/indie/full/downloads/ccb_download_01.zip</link>
 </text>
 
 
