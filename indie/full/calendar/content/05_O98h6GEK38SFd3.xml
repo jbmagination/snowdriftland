@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+	<!------------------------------------------------------------------------------------------------------------------>
+	<!-- This was recreated from scratch and is not an authentic original 2010 file. If anyone can find the original  -->
+        <!-- XML files, or their goodie counterparts, let me know.                                                        -->
+        <!-- JBMagination												  -->
+	<!------------------------------------------------------------------------------------------------------------------>	
+	<title>NyxQuest: Kindred Spirits</title>
+	<body>Visit Ancient Greece and rescue Icarus.</body>
+	<sub>AVAILABLE FOR PC AND WiiWARE</sub>
+	<homepage>http://nyxquest.com/</homepage>
+
+        <!-- Fun fact! This bottom tag can be anything. "goodies", "reward", "randomtag123", "download", you name it.     -->
+	<!-- The "DOWNLOAD GOODIES" button will still use it. However, by default, it checks for "link" first.            -->
+
+	<link>https://snowdriftindie.jbmagination.com/indie/full/downloads/NyxQuestOST.zip</link>
+</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
