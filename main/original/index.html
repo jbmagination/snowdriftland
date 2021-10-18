@@ -15,29 +15,26 @@ in Snowdriftland. Chubby Snows big ADVENTure. Der große europaweite
 Adventskalender 2006 von extra toxic, powered by Nintendo."/>
     </head>
     <body bgcolor="#FFFFFF">
-        <div>
+        <div id="game">
             <table width="100%" height="100%">
                 <tr>
-                    <td  align="center" valign="middle">
-			    <div id="game">
-                            	<object type="application/x-shockwave-flash" id="stage" data="lang.swf" width="900" height="578" title="stage">
-                            		<param name="allowScriptAccess" value="sameDomain" />
-	                            	<param name="movie" value="lang.swf" />
-        	                    	<param name="quality" value="high" />
-                	            	<param name="menu" value="false" />
-                        	        <a target="_blank" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"><img src="img/noflash.jpg" alt="GET FLASH PLAYER" height="201" width="750" border="0" /></a>
-				 </object>
-			    </div>
-			    <script>
-				    // Ruffle (also a test of how good my JavaScript/HTML skills are)
-				    // ~ JBMagination
-				    if (new URLSearchParams(window.location.search).has('ruffle') == true) {
-					    document.getElementById('game').innerHTML = '\<script src="/ruffle/ruffle.js"\>\</script\><object type="application/x-shockwave-flash" id="stage" data="lang.swf" width="900" height="578" title="stage"><param name="allowScriptAccess" value="sameDomain" /><param name="movie" value="lang.swf" /><param name="quality" value="high" /><param name="menu" value="false" /><a target="_blank" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"><img src="img/noflash.jpg" alt="GET FLASH PLAYER" height="201" width="750" border="0" /></a></object>'
-				    }
-			    </script>
+                    <td align="center" valign="middle">
+                            <object type="application/x-shockwave-flash" id="stage" data="lang.swf" width="900" height="578" title="stage">
+                       		<param name="allowScriptAccess" value="sameDomain" />
+	                      	<param name="movie" value="lang.swf" />
+       	                	<param name="quality" value="high" />
+                	       	<param name="menu" value="false" />
+			        <a target="_blank" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"><img src="img/noflash.jpg" alt="GET FLASH PLAYER" height="201" width="750" border="0" /></a>
+			    </object>
                     </td>
                 </tr>
             </table>
         </div>
+	<script>
+		if (new URLSearchParams(window.location.search).has('ruffle') == true) {
+			ogHTML = document.getElementById('game').innerHTML;
+			document.getElementById('game').innerHTML = ogHTML + '\<script src="/ruffle/ruffle.js"\>\</script\>'
+		}
+	</script>
     </body>
 </html>
