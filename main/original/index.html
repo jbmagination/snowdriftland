@@ -31,7 +31,7 @@ Adventskalender 2006 von extra toxic, powered by Nintendo."/>
 			    <script>
 				    // Ruffle (also a test of how good my JavaScript/HTML skills are)
 				    // ~ JBMagination
-				    if (new URLSearchParams(window.location.search).has('ruffle')) {
+				    if (new URLSearchParams(window.location.search).has('ruffle') == true) {
 					    document.getElementById('game').innerHTML = '\<script src="/ruffle/ruffle.js"\>\</script\><object type="application/x-shockwave-flash" id="stage" data="lang.swf" width="900" height="578" title="stage"><param name="allowScriptAccess" value="sameDomain" /><param name="movie" value="lang.swf" /><param name="quality" value="high" /><param name="menu" value="false" /><a target="_blank" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"><img src="img/noflash.jpg" alt="GET FLASH PLAYER" height="201" width="750" border="0" /></a></object>'
 				    }
 			    </script>
