@@ -33,7 +33,8 @@ Adventskalender 2006 von extra toxic, powered by Nintendo."/>
 	<script>
 		if (new URLSearchParams(window.location.search).has('ruffle') == true) {
 			ogHTML = document.getElementById('game').innerHTML;
-			document.getElementById('game').innerHTML = ogHTML + '\<script src="/ruffle/ruffle.js"\>\</script\>'
+			document.getElementById('game').innerHTML = ''
+			document.getElementById('game').innerHTML = '\<script src="/ruffle/ruffle.js"\>\</script\>' + ogHTML
 		}
 	</script>
     </body>
